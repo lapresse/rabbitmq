@@ -25,4 +25,5 @@ attribute :policy, :kind_of => String, :name_attribute => true
 attribute :pattern, :kind_of => String
 attribute :params, :kind_of => Hash
 attribute :priority, :kind_of => Integer
+attribute :apply_to, :kind_of => String
 attribute :vhost, :kind_of => String
